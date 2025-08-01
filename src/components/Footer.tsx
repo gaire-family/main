@@ -1,4 +1,5 @@
 import React from 'react';
+import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
 const Footer: React.FC = () => {
