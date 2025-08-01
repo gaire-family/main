@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
   Home,
-  Users,
   User,
   Briefcase,
   Calendar,
@@ -52,11 +51,7 @@ const Navigation: React.FC = () => {
 
         <div className="nav-links desktop">
           {navItems.map((item) => (
-            <NavLink
-              key={item.path}
-              to={item.path}
-              className="nav-link"
-            >
+            <NavLink key={item.path} to={item.path} className="nav-link">
               {item.label}
             </NavLink>
           ))}

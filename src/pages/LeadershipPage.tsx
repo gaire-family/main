@@ -1,6 +1,6 @@
 import React from 'react';
 import { leadershipData, type Leader } from '../data/leadershipData';
-import { User, Calendar, MessageSquare } from 'lucide-react';
+import { Calendar, MessageSquare } from 'lucide-react';
 
 const LeadershipCard: React.FC<{ leader: Leader }> = ({ leader }) => {
   return (
